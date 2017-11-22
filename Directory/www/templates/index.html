@@ -1,0 +1,24 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Directory</title>
+    <link rel="stylesheet" href="{% static 'teamdirectory/css/normalize.css' %}" />
+    <link rel="stylesheet" href="{% static 'teamdirectory/css/main.css' %}" />
+</head>
+<body>
+    <main>
+        <h1>Directory</h1>
+            {% for person in person %}
+            <section>
+                <img src="{{ person.image }}" alt="{{ person.name }}" height="200">
+                <h2>{{ person.name }}</h2>
+                <p class="person-title">{{ person.title }}</p>
+                <p class="person-email">{{ person.email }}</p>
+            </section>
+        {% endfor %}
+    </main>
+</body>
+</html>

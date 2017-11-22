@@ -1,0 +1,49 @@
+.person-title {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.person-email {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 0;
+    margin: 0;
+    min-width: 300px;
+    border-radius: 3px;
+    background-color: #B5C9C3;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px 10px 10px;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: #CFD8D7;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border-radius: 80px;
+    padding-top: 10px;
+    width: 175px;
+    height: 162px
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
