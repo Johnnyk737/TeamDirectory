@@ -1,1 +1,1 @@
-web: gunicorn TeamDirectory.wsgi --log-file -
+web: gunicorn Directory.wsgi --log-file -
