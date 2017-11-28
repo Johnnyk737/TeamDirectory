@@ -13,7 +13,9 @@
         <h1>Directory</h1>
             {% for person in person %}
             <section>
-                <img src="{{ person.image }}" alt="{{ person.name }}" height="200">
+                <a href="{% url 'detail' person.slug %}">
+                    <img src="{{ person.image }}" alt="{{ person.name }}" height="200">
+                </a>
                 <h2>{{ person.name }}</h2>
                 <p class="person-title">{{ person.title }}</p>
                 <p class="person-email">{{ person.email }}</p>
