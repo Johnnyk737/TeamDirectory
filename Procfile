@@ -1,1 +1,1 @@
-web: gunicorn Directory.Directory.wsgi:application --log-file -
+web: gunicorn Directory.wsgi
