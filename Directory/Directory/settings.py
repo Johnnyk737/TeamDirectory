@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'www',
+    'Directory.www',
     'Directory',
     'gunicorn',
 ]
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Directory.wsgi.application'
+WSGI_APPLICATION = 'Directory.Directory.wsgi.application'
 
 
 # Database
