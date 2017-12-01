@@ -1,14 +1,6 @@
-{% load staticfiles %}
+{% extends 'base.html' %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Directory</title>
-    <link rel="stylesheet" href="{% static 'teamdirectory/css/normalize.css' %}" />
-    <link rel="stylesheet" href="{% static 'teamdirectory/css/main.css' %}" />
-</head>
-<body>
+{% block content %}
     <main>
         <h1>Directory</h1>
             {% for person in person %}
@@ -22,5 +14,4 @@
             </section>
         {% endfor %}
     </main>
-</body>
-</html>
+{% endblock %}
